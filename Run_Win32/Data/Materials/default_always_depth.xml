@@ -1,0 +1,6 @@
+<material name="default_always_depth">
+	<shader name="default_always_depth" />
+	<textures>
+		<texture bind="0" file="default" />
+	</textures>
+</material>

@@ -1,0 +1,23 @@
+<shader name="default_always_depth">
+
+   <program define="">
+      <vertex file="Data/Shaders/default" />
+      <fragment file="Data/Shaders/default" />
+   </program>
+
+   <lighting lit="false"/>
+
+   <order sortLayer="0" renderQueue="opaque" />
+
+   <blend>
+      <color op="add" src="one" dest="zero" />
+      <alpha op="add" src="one" dest="one" />
+   </blend>
+
+   <!-- compare less is default -->
+   <depth write="false" compare="greater"/>
+
+    <!-- bindings -->
+    <bindings>
+   </bindings>
+</shader>

@@ -1,0 +1,33 @@
+<BlockDefinitions>
+
+	<BlockDefinition id="0" name="air">
+		<BitSettings isFullOpaque="false" isVisible="false" isSolid="false" doesEmitLight="false"/>
+		<Lighting minimumLightingValue="0" />
+		<TextureCoords front="1,2" right="1,2," back="1,2" left="1,2" top="1,2" bottom="1,2" />
+	</BlockDefinition>
+
+	<BlockDefinition id="1" name="grass">
+		<BitSettings isFullOpaque="true" isVisible="true" isSolid="true" doesEmitLight="false"/>
+		<Lighting minimumLightingValue="0" />
+		<TextureCoords front="3,3" right="3,3" back="3,3" left="3,3" top="21,0," bottom="4,3" />
+	</BlockDefinition>
+
+	<BlockDefinition id="2" name="dirt">
+		<BitSettings isFullOpaque="true" isVisible="true" isSolid="true" doesEmitLight="false"/>
+		<Lighting minimumLightingValue="0" />
+		<TextureCoords front="4,3" right="4,3" back="4,3" left="4,3" top="4,3" bottom="4,3" />
+	</BlockDefinition>
+
+	<BlockDefinition id="3" name="stone">
+		<BitSettings isFullOpaque="true" isVisible="true" isSolid="true" doesEmitLight="false"/>
+		<Lighting minimumLightingValue="0" />
+		<TextureCoords front="7,4" right="7,4" back="7,4" left="7,4" top="7,4" bottom="7,4" />
+	</BlockDefinition>
+
+	<BlockDefinition id="4" name="glowstone">
+		<BitSettings isFullOpaque="true" isVisible="true" isSolid="true" doesEmitLight="true"/>
+		<Lighting minimumLightingValue="15" />
+		<TextureCoords front="3,13" right="3,13" back="3,13" left="3,13" top="3,13" bottom="3,13" />
+	</BlockDefinition>
+
+</BlockDefinitions>

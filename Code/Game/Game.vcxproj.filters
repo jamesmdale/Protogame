@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="General">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_Win32.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="TheApp.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCommon.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStates\LoadingState.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStates\MainMenuState.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStates\PlayingState.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStates\GameState.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\GameCamera.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Player.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\World.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Block.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Chunk.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Definitions\BlockDefinition.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectMeshbuilder.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\BlockLocator.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\RaycastResult.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\Ray.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\GameRendererHelpers.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\ChunkFileLoader.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjects\Entity.cpp">
+      <Filter>General</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="TheApp.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCommon.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineBuildPreferences.hpp">
+      <Filter>General</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStates\LoadingState.hpp" />
+    <ClInclude Include="GameStates\MainMenuState.hpp" />
+    <ClInclude Include="GameStates\PlayingState.hpp" />
+    <ClInclude Include="GameStates\GameState.hpp" />
+    <ClInclude Include="SessionInfrastructure\NetSession.hpp" />
+    <ClInclude Include="GameObjects\GameCamera.hpp" />
+    <ClInclude Include="GameObjects\Player.hpp" />
+    <ClInclude Include="GameObjects\World.hpp" />
+    <ClInclude Include="GameObjects\Block.hpp" />
+    <ClInclude Include="GameObjects\Chunk.hpp" />
+    <ClInclude Include="Definitions\BlockDefinition.hpp" />
+    <ClInclude Include="ObjectMeshbuilder.hpp" />
+    <ClInclude Include="GameObjects\BlockLocator.hpp" />
+    <ClInclude Include="Helpers\RaycastResult.hpp" />
+    <ClInclude Include="Helpers\Ray.hpp" />
+    <ClInclude Include="Helpers\GameRendererHelpers.hpp" />
+    <ClInclude Include="Helpers\ChunkFileLoader.hpp" />
+    <ClInclude Include="GameObjects\Entity.hpp" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+<shader name="OverworldOpaque">
+
+   <program define="">
+      <vertex file="Data/Shaders/OverworldOpaque" />
+      <fragment file="Data/Shaders/OverworldOpaque" />
+   </program>
+
+   <lighting lit="false"/>
+
+   <order sortLayer="0" renderQueue="opaque" />
+
+   <blend>
+      <color op="add" src="one" dest="zero" />
+      <alpha op="add" src="one" dest="one" />
+   </blend>
+
+   <!-- compare less is default -->
+   <depth write="true" compare="less"/>
+
+    <!-- bindings -->
+    <bindings>
+   </bindings>
+</shader>

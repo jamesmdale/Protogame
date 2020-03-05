@@ -1,0 +1,6 @@
+<material name="OverworldOpaque">
+	<shader name="OverworldOpaque" />
+	<textures>
+		<texture bind="0" file="default" />
+	</textures>
+</material>
